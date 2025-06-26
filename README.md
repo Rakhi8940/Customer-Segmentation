@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/119818d1-dfdf-4efa-99da-acf941307dba" width="280" alt="Credit Card Fraud Detection Banner" style="margin: 10px; border-radius: 12px;">
+  <img src="https://github.com/user-attachments/assets/e78307cb-4e50-4e94-8f7f-ea753c2d679e" width="280" alt="Second Banner" style="margin: 10px; border-radius: 12px;">
+</p>
+
 # 🧠 Customer Segmentation – Unsupervised Learning Project
 
 This project applies **unsupervised machine learning** techniques to segment customers based on their purchasing behavior and demographic characteristics. By understanding customer segments, businesses can develop targeted marketing strategies and improve customer satisfaction.
@@ -74,23 +79,21 @@ This project applies **unsupervised machine learning** techniques to segment cus
 
 ## 📁 Project Structure
 
+```
 customer-segmentation/
 ├── data/
-│ └── customers.csv # Customer dataset
+│   └── customers.csv
 ├── notebooks/
-│ └── customer_segmentation.ipynb # Data analysis and clustering
+│   └── customer_segmentation.ipynb
 ├── app/
-│ ├── templates/
-│ │ └── index.html # (Optional) Web interface
-│ ├── app.py # (Optional) Flask app
+│   ├── templates/
+│   │   └── index.html
+│   ├── app.py
 ├── outputs/
-│ └── cluster_plots/ # Cluster images/graphs
+│   └── cluster_plots/
 ├── requirements.txt
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
+└── README.md
+```
 
 ---
 
@@ -105,13 +108,13 @@ Edit
 
 Install the required libraries with:
 
-bash
+```bash
 pip install -r requirements.txt
-Typical requirements.txt content:
+```
 
-txt
-Copy
-Edit
+Sample `requirements.txt`:
+
+```
 pandas
 numpy
 matplotlib
@@ -119,21 +122,24 @@ seaborn
 scikit-learn
 plotly
 flask
+```
 
 ---
 
-## 💡 Future Enhancements
+## 📊 Example Visuals
 
-🎯 Dashboard: Integrate visualizations with a full web dashboard (e.g., using Streamlit or Dash)
-🛍️ Real Business Data: Apply the model to real e-commerce or CRM data
-📈 Cluster Profiling: Add cluster statistics to label groups (e.g., "High-Value Young Shoppers")
-🔄 Automation: Create a script to retrain the model with new customer data
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1a199a1b-188f-4d42-ba0f-02366a964bcb" width="500" alt="Credit Card Fraud Detection Banner" style="margin:8px; border-radius:8px;">
+  <img src="https://github.com/user-attachments/assets/8b9c0e20-4b13-4836-8c1f-d505f7e27a43" width="500" alt="Credit Card Fraud Detection Banner" style="margin:8px; border-radius:8px;">
+  <img src="https://github.com/user-attachments/assets/d616ebe5-9365-4802-b85a-4219974c9af9" width="500" alt="Credit Card Fraud Detection Banner" style="margin:8px; border-radius:8px;">
+  <img src="https://github.com/user-attachments/assets/2a635995-317b-4cda-af4e-a41b8d56961d" width="500" alt="Credit Card Fraud Detection Banner" style="margin:8px; border-radius:8px;">
+</p>
 
 ---
 
 ## 👩‍💻 Author
 
-Developed by Rakhi Yadav
+Developed by Rakhi Yadav  
 For feedback, collaboration, or questions
 
 ---
